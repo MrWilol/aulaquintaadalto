@@ -16,7 +16,7 @@ const conn = knex( {
         host : HOSTNAME ,
         user : "root" ,
         password : "" ,
-        database : "loja261"
+        database : "loja20261"
     }
 } )
 
