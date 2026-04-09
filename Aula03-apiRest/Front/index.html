@@ -13,15 +13,21 @@
 <body>
 
     <h1>Loja</h1>
-
-    <button class="btn btn-primary" onclick="carregarProdutos()">Produtos</button>
-    <button class="btn btn-success" onclick="carregarCategorias()">Categorias</button>
-
-    <div class="conteiner text-center" id="divConteudo">
-
-
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-primary" onclick="carregarProdutos()">Produtos</button>
+        </div>
+        <div class="col">
+            <button class="btn btn-success" onclick="carregarCategorias()">Categorias</button>
+        </div>
     </div>
+    <br>
+    <table class="table table-striped-columns" id="divConteudo">
 
+
+    </table>
+
+    
 
     <script src="js/script.js"></script>
 </body>
